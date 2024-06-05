@@ -7,6 +7,7 @@ def convert_grey(imgName):
     gry_img = img.convert("L")
     st.image(gry_img)
 
+
 uploaded_img = st.file_uploader("Upload Image")
 
 with st.expander("Start Camera"):
